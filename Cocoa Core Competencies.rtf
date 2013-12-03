@@ -1,11 +1,27 @@
-Cocoa Core Competencies
-Archiving
-归档
-Archiving is the process of converting a group of related objects to a form that can be stored or transferred between applications. The end result of archiving—an archive—is a stream of bytes that records the identity of objects, their encapsulated values, and their relationships with other objects. Unarchiving, the reverse process, takes an archive and reconstitutes an identical network of objects.
-归档是把一群相关对象转换成一个可以在程序间储存和传输的过程。归档的结果是一个文档，一个字节流记录了对象名字，
-包含的数值，他们的关系。反归档，相反的过程，把一个归档重构成一个相同的对象。
+{\rtf1\ansi\ansicpg936\cocoartf1265
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;\f1\fnil\fcharset134 STHeitiSC-Light;}
+{\colortbl;\red255\green255\blue255;\red83\green83\blue83;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15820\viewh12540\viewkind0
+\deftab720
+\pard\pardeftab720\qc
 
-The main value of archiving is that it provides a generic way to make objects persistent. Instead of writing object data out in a special file format, applications frequently store their model objects in archives that they can write out as files. An application can also transfer a network of objects—commonly known as an object graph—to another application using archiving. Applications often do this for pasteboard operations such as copy and paste.
-归档的主要价值在于提供了一个通用的方法使得对象可以持久化。而不是写在一个特殊格式的文件里面，应用程序频繁地
-储存他们模型对象中的档案，他们也可以写成文件。程序也可以传输一个网络对象，通常被成为对象图，到另外一个程序，
-使用归档。程序经常为剪贴板操作做这样，比方说复制粘贴。
+\f0\fs30 \cf0 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 Cocoa Core Competencies\
+\pard\pardeftab720\sa429
+
+\b\fs38 \cf0 \shad0 Archiving\
+
+\f1 \'b9\'e9\'b5\'b5
+\f0 \
+\pard\pardeftab720\sa216
+
+\b0\fs26 \cf2 Archiving is the process of converting a group of related objects to a form that can be stored or transferred between applications. The end result of archiving\'97an archive\'97is a stream of bytes that records the identity of objects, their encapsulated values, and their relationships with other objects. Unarchiving, the reverse process, takes an archive and reconstitutes an identical network of objects.\
+
+\f1 \'b9\'e9\'b5\'b5\'ca\'c7\'b0\'d1\'d2\'bb\'c8\'ba\'cf\'e0\'b9\'d8\'b6\'d4\'cf\'f3\'d7\'aa\'bb\'bb\'b3\'c9\'d2\'bb\'b8\'f6\'bf\'c9\'d2\'d4\'d4\'da\'b3\'cc\'d0\'f2\'bc\'e4\'b4\'a2\'b4\'e6\'ba\'cd\'b4\'ab\'ca\'e4\'b5\'c4\'b9\'fd\'b3\'cc\'a1\'a3\'b9\'e9\'b5\'b5\'b5\'c4\'bd\'e1\'b9\'fb\'ca\'c7\'d2\'bb\'b8\'f6\'ce\'c4\'b5\'b5\'a3\'ac\'d2\'bb\'b8\'f6\'d7\'d6\'bd\'da\'c1\'f7\'bc\'c7\'c2\'bc\'c1\'cb\'b6\'d4\'cf\'f3\'c3\'fb\'d7\'d6\'a3\'ac\
+\'b0\'fc\'ba\'ac\'b5\'c4\'ca\'fd\'d6\'b5\'a3\'ac\'cb\'fb\'c3\'c7\'b5\'c4\'b9\'d8\'cf\'b5\'a1\'a3\'b7\'b4\'b9\'e9\'b5\'b5\'a3\'ac\'cf\'e0\'b7\'b4\'b5\'c4\'b9\'fd\'b3\'cc\'a3\'ac\'b0\'d1\'d2\'bb\'b8\'f6\'b9\'e9\'b5\'b5\'d6\'d8\'b9\'b9\'b3\'c9\'d2\'bb\'b8\'f6\'cf\'e0\'cd\'ac\'b5\'c4\'b6\'d4\'cf\'f3\'a1\'a3\
+\
+
+\f0 The main value of archiving is that it provides a generic way to make objects persistent. Instead of writing object data out in a special file format, applications frequently store their model objects in archives that they can write out as files. An application can also transfer a network of objects\'97commonly known as an object graph\'97to another application using archiving. Applications often do this for pasteboard operations such as copy and paste.\
+
+\f1 \'b9\'e9\'b5\'b5\'b5\'c4\'d6\'f7\'d2\'aa\'bc\'db\'d6\'b5\'d4\'da\'d3\'da\'cc\'e1\'b9\'a9\'c1\'cb\'d2\'bb\'b8\'f6\'cd\'a8\'d3\'c3\'b5\'c4\'b7\'bd\'b7\'a8\'ca\'b9\'b5\'c3\'b6\'d4\'cf\'f3\'bf\'c9\'d2\'d4\'b3\'d6\'be\'c3\'bb\'af\'a1\'a3\'b6\'f8\'b2\'bb\'ca\'c7\'d0\'b4\'d4\'da\'d2\'bb\'b8\'f6\'cc\'d8\'ca\'e2\'b8\'f1\'ca\'bd\'b5\'c4\'ce\'c4\'bc\'fe\'c0\'ef\'c3\'e6\'a3\'ac\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'c6\'b5\'b7\'b1\'b5\'d8\
+\'b4\'a2\'b4\'e6\'cb\'fb\'c3\'c7\'c4\'a3\'d0\'cd\'b6\'d4\'cf\'f3\'d6\'d0\'b5\'c4\'b5\'b5\'b0\'b8\'a3\'ac\'cb\'fb\'c3\'c7\'d2\'b2\'bf\'c9\'d2\'d4\'d0\'b4\'b3\'c9\'ce\'c4\'bc\'fe\'a1\'a3\'b3\'cc\'d0\'f2\'d2\'b2\'bf\'c9\'d2\'d4\'b4\'ab\'ca\'e4\'d2\'bb\'b8\'f6\'cd\'f8\'c2\'e7\'b6\'d4\'cf\'f3\'a3\'ac\'cd\'a8\'b3\'a3\'b1\'bb\'b3\'c9\'ce\'aa\'b6\'d4\'cf\'f3\'cd\'bc\'a3\'ac\'b5\'bd\'c1\'ed\'cd\'e2\'d2\'bb\'b8\'f6\'b3\'cc\'d0\'f2\'a3\'ac\
+\'ca\'b9\'d3\'c3\'b9\'e9\'b5\'b5\'a1\'a3\'b3\'cc\'d0\'f2\'be\'ad\'b3\'a3\'ce\'aa\'bc\'f4\'cc\'f9\'b0\'e5\'b2\'d9\'d7\'f7\'d7\'f6\'d5\'e2\'d1\'f9\'a3\'ac\'b1\'c8\'b7\'bd\'cb\'b5\'b8\'b4\'d6\'c6\'d5\'b3\'cc\'f9\'a1\'a3}
